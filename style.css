@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #222;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  width: 1200px;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.container .box {
+  position: relative;
+  background: #fff;
+  padding: 20px 40px 40px;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.container .box:nth-child(1) {
+  background: linear-gradient(45deg, #F1C40F, #DAF7A6);
+}
+.container .box:nth-child(2) {
+  background: linear-gradient(45deg, #82E0AA, #DAF7A6);
+}
+.container .box:nth-child(3) {
+  background: linear-gradient(45deg, #EC7063, #DAF7A6);
+}
+.container .box:nth-child(4) {
+  background: linear-gradient(45deg, #5DADE2, #82E0AA);
+}
+
+h2 {
+position: relative;
+margin: 0;
+padding: 0;
+font-size: 80px;
+color: #121212;
+z-index: 1;
+opacity: .7;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  color: grey;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0;
+  padding: 10px 0;
+  color: grey;
+  font-size: 18px;
+  color: #121212;
+}
